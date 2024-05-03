@@ -37,7 +37,7 @@
     header #nav_check:checked ~ nav {
       left: 0;
     }
-   
+    
     /*Estilos del index*/
     .contenido1 {
       display: grid;
@@ -84,16 +84,118 @@
     .carousel-control-prev {
       filter: invert(100%);
     }
+    /*Estilos de biografía*/
+
+.contenido2{
+  h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+    }
+}
+    .contenedor1 {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 450px;
+        height: 250px;
+        margin-left: 20px;
+      }
+      p{
+        margin-top: 0;
+      }
+      }
+      .contenedor2 {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 450px;
+        height: 270px;
+        margin-right: 20px;
+      }
+      }
+
     /*Estilos de miembros*/
-    .contenido3 {
+    .boxcontenido {
       display: none;
     }
-    
-    .boxcontenido {
-      margin-top: 20px;
-      width: 80%;
+    h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+    padding: 0;
+    }
+    .boxcontenido2 {
+      margin: 0;
+      padding: 0;
+      width: 70%;
       position: relative;
-      left: 10%;
+      left: 15%;
+  img{
+    width: 100%;
+  }
+  p{
+margin: 0px;
+padding-top: 8px;
+text-align: center;
+  }
+    }
+
+      /*Estilos de música*/
+      .contenido4{
+        h1{
+          font-size: 30px;
+          text-align: center;
+          margin-top: 40px;
+          padding: 0;
+          }
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 10px;
+          padding-left: 15px;
+          grid-auto-rows: minmax(100px, auto);
+          img {
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+            box-shadow: 5px 5px 8px lightgray;
+                transition: 1s;
+                &:hover{
+                  width: 220px;
+                  height: 220px;
+                  transition: 1s;      
+          }
+      }
+    }
+  } 
+
+      /*Estilos del merch*/
+      .contenido5{
+        h1{
+          font-size: 30px;
+          text-align: center;
+          margin-top: 40px;
+          padding: 0;
+          }
+        .gallery2 {
+          width: 75%;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-gap: 10px;
+          margin-top: 25px;
+          grid-auto-rows: minmax(100px, auto);
+          .desc {
+          margin-top: 60px;
+          }
+          img {
+            width: 200px;
+            height: 200px;
+          }
+          }
     }
 
     /*estilos footer*/

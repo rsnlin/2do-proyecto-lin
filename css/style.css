@@ -310,8 +310,8 @@ footer .texto {
   text-align: center;
   margin: 40px;
   padding: 50px;
-  border-top-left-radius: 80px 80px;
-  border-top-right-radius: 80px 80px;
+  border-top-left-radius: 60px 80px;
+  border-top-right-radius: 60px 80px;
   border: #372048 5px double;
 }
 
@@ -319,8 +319,8 @@ footer .texto {
   text-align: center;
   margin: 40px;
   padding: 50px;
-  border-top-left-radius: 80px 80px;
-  border-top-right-radius: 80px 80px;
+  border-top-left-radius: 60px 80px;
+  border-top-right-radius: 60px 80px;
   border: #372048 5px double;
 }
 
@@ -415,15 +415,108 @@ footer .texto {
   .carousel-control-prev {
     filter: invert(100%);
   }
+  /*Estilos de biografía*/
+  .contenido2 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+  }
+  .contenedor1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor1 img {
+    width: 450px;
+    height: 250px;
+    margin-left: 20px;
+  }
+  .contenedor1 p {
+    margin-top: 0;
+  }
+  .contenedor2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor2 img {
+    width: 450px;
+    height: 270px;
+    margin-right: 20px;
+  }
   /*Estilos de miembros*/
-  .contenido3 {
+  .boxcontenido {
     display: none;
   }
-  .boxcontenido {
-    margin-top: 20px;
-    width: 80%;
+  h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px;
+    padding: 0;
+  }
+  .boxcontenido2 {
+    margin: 0;
+    padding: 0;
+    width: 70%;
     position: relative;
-    left: 10%;
+    left: 15%;
+  }
+  .boxcontenido2 img {
+    width: 100%;
+  }
+  .boxcontenido2 p {
+    margin: 0px;
+    padding-top: 8px;
+    text-align: center;
+  }
+  /*Estilos de música*/
+  .contenido4 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+  }
+  .contenido4 .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding-left: 15px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .contenido4 .gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    box-shadow: 5px 5px 8px lightgray;
+    transition: 1s;
+  }
+  .contenido4 .gallery img:hover {
+    width: 220px;
+    height: 220px;
+    transition: 1s;
+  }
+  /*Estilos del merch*/
+  .contenido5 h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+  }
+  .contenido5 .gallery2 {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 25px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .contenido5 .gallery2 .desc {
+    margin-top: 60px;
+  }
+  .contenido5 .gallery2 img {
+    width: 200px;
+    height: 200px;
   }
   /*estilos footer*/
   footer .redes {
