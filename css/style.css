@@ -539,9 +539,12 @@ footer .texto p {
     height: 160px;
     margin: 5px;
     box-shadow: 5px 5px 8px lightgray;
+    transition: 1s;
   }
   .contenido4 .gallery img:hover {
-    display: none;
+    width: 170px;
+    height: 170px;
+    transition: 1s;
   }
   /*Estilos del merch*/
   .contenido5 {
