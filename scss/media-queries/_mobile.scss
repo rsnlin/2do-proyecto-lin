@@ -105,7 +105,7 @@
         height: 220px;
         display: block;
         margin-left: auto;
-       margin-right: auto;
+        margin-right: auto;
       }
       p{
         margin-top: 0;
@@ -121,7 +121,7 @@
         height: 220px;
         display: block;
         margin-left: auto;
-       margin-right: auto;
+        margin-right: auto;
       }
       p{
         margin-bottom: 0;
@@ -158,6 +158,7 @@ text-align: center;
       /*Estilos de música*/
       .contenido4{
         width: 100%;
+        text-align: center;
         h1{
           font-size: 30px;
           text-align: center;
@@ -168,7 +169,6 @@ text-align: center;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 10px;
-          padding-left: 8px;
           grid-auto-rows: minmax(100px, auto);
           img {
             width: 160px;
@@ -188,6 +188,7 @@ text-align: center;
       /*Estilos del merch*/
       .contenido5{
         width: 100%;
+        text-align: center;
         h1{
           font-size: 30px;
           text-align: center;
@@ -196,10 +197,10 @@ text-align: center;
           }
         .gallery2 {
           width: 90%;
-          margin-left: 17px;
+          margin-left: 20px;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
-          grid-gap: px;
+          grid-gap: 10px;
           margin-top: 25px;
           grid-auto-rows: minmax(100px, auto);
           .desc {

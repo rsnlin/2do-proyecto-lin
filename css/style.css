@@ -526,6 +526,7 @@ footer .texto p {
   /*Estilos de música*/
   .contenido4 {
     width: 100%;
+    text-align: center;
   }
   .contenido4 h1 {
     font-size: 30px;
@@ -537,7 +538,6 @@ footer .texto p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    padding-left: 8px;
     grid-auto-rows: minmax(100px, auto);
   }
   .contenido4 .gallery img {
@@ -555,6 +555,7 @@ footer .texto p {
   /*Estilos del merch*/
   .contenido5 {
     width: 100%;
+    text-align: center;
   }
   .contenido5 h1 {
     font-size: 30px;
@@ -564,10 +565,10 @@ footer .texto p {
   }
   .contenido5 .gallery2 {
     width: 90%;
-    margin-left: 17px;
+    margin-left: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: px;
+    grid-gap: 10px;
     margin-top: 25px;
     grid-auto-rows: minmax(100px, auto);
   }
