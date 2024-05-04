@@ -42,12 +42,12 @@
     .contenido1 {
       display: grid;
       align-items: center;
-      min-height: 60vh;
+      min-height: 50vh;
       background-image: url(../images/Portdada\ mobile.png);
       background-size: cover;
       background-position: center;
       h1 {
-        background: linear-gradient(180deg, #a97068 4%, #a14c4b 42%, #843232 70%);
+        background: linear-gradient(180deg, rgba(169,112,104,1) 9%, rgba(161,76,75,1) 53%, rgba(132,50,50,1) 85%);
         background-clip: text;
         color: transparent;  
         text-align: center;
@@ -99,8 +99,8 @@
       justify-content: center;
       align-items: center;
       img{
-        width: 450px;
-        height: 250px;
+        width: 350px;
+        height: 200px;
         margin-left: 20px;
       }
       p{
@@ -112,8 +112,8 @@
       justify-content: center;
       align-items: center;
       img{
-        width: 450px;
-        height: 270px;
+        width: 350px;
+        height: 200px;
         margin-right: 20px;
       }
       p{
@@ -159,11 +159,11 @@ text-align: center;
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 10px;
-          padding-left: 15px;
+          padding-left: 8px;
           grid-auto-rows: minmax(100px, auto);
           img {
-            width: 200px;
-            height: 200px;
+            width: 160px;
+            height: 160px;
             margin: 5px;
             box-shadow: 5px 5px 8px lightgray;
                 transition: 1s;
@@ -195,8 +195,8 @@ text-align: center;
           margin-top: 60px;
           }
           img {
-            width: 200px;
-            height: 200px;
+            width: 160px;
+            height: 160px;
           }
           }
     }

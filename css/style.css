@@ -414,13 +414,13 @@ footer .texto p {
   .contenido1 {
     display: grid;
     align-items: center;
-    min-height: 60vh;
+    min-height: 50vh;
     background-image: url(../images/Portdada\ mobile.png);
     background-size: cover;
     background-position: center;
   }
   .contenido1 h1 {
-    background: linear-gradient(180deg, #a97068 4%, #a14c4b 42%, #843232 70%);
+    background: linear-gradient(180deg, rgb(169, 112, 104) 9%, rgb(161, 76, 75) 53%, rgb(132, 50, 50) 85%);
     background-clip: text;
     color: transparent;
     text-align: center;
@@ -468,8 +468,8 @@ footer .texto p {
     align-items: center;
   }
   .contenedor1 img {
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     margin-left: 20px;
   }
   .contenedor1 p {
@@ -481,8 +481,8 @@ footer .texto p {
     align-items: center;
   }
   .contenedor2 img {
-    width: 450px;
-    height: 270px;
+    width: 350px;
+    height: 200px;
     margin-right: 20px;
   }
   .contenedor2 p {
@@ -524,12 +524,12 @@ footer .texto p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    padding-left: 15px;
+    padding-left: 8px;
     grid-auto-rows: minmax(100px, auto);
   }
   .contenido4 .gallery img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     margin: 5px;
     box-shadow: 5px 5px 8px lightgray;
     transition: 1s;
@@ -558,8 +558,8 @@ footer .texto p {
     margin-top: 60px;
   }
   .contenido5 .gallery2 img {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
   }
   /*estilos footer*/
   footer {
