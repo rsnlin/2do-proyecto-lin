@@ -32,6 +32,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    padding: 10px;
     img {
         width: 850px;
         height: 350px;
@@ -46,6 +47,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    padding: 10px;
     img {
         width: 750px;
         height: 420px;
@@ -67,6 +69,8 @@
     justify-self: center;
     align-items: center;
     text-align: center;
+    padding-left: 55px;
+    padding-right: 55px;
     .box {
         flex: 1;
         margin: 20px 20px;
@@ -78,7 +82,7 @@
             margin: 5px;
             transition: 1s;
             &:hover{
-              width: 102%;
+              width: 108%;
               transition: 1s;
             
           }
@@ -124,14 +128,14 @@
     align-items: center;
     flex-wrap: wrap;
     img {
-        width: 400px;
-        height: 400px;
-        margin: 10px;
+        width: 380px;
+        height: 380px;
+        margin: 20px;
         box-shadow: 5px 5px 8px lightgray;
             transition: 1s;
             &:hover{
-              width: 420px;
-              height: 420px;
+              width: 400px;
+              height: 400px;
               transition: 1s;      
       }
   }
@@ -142,6 +146,7 @@
     display: inline-block;
     border: 1px solid hsl(0, 0%, 60%);
     margin: 10px;
+padding: 30px;
     transition: 1s;
     &:hover{
       transform: scale(1.1);
@@ -155,7 +160,8 @@
         text-align: center;
       }
       img {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
+
       }
   }

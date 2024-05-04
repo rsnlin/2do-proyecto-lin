@@ -1,19 +1,53 @@
 /*Estilos footer*/
 footer {
+  background-color: black;
+  margin-top: 100px;
+  padding: 2px;
+  .logo{
+    display: grid;
+    img{
+    width: 75px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    h3{
+      font-size: 19px;
+      margin-top: 20px;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+    }
+  }
     .redes {
         text-align: center;
-        margin-top: 50px;
+        margin: 15px;
+        img{
+        height: 30px;
+      margin-right: 18px;
+      transition: transform 0.5s;
+      &:hover{
+        transform: translateY(-5px);
+        transition: transform 0.4s;
+    }
+        }
+        
       }   
       .flecha {
         width: 50px;
         height: 50px;
         position: fixed;
-        bottom: 40px;
-        right: 30px;
+        bottom: 25px;
+        right: 15px;
         display: flex;
       }
       .texto {
         text-align: center;
-        margin: 20px;
+        margin-top: 20px;
+        p{
+        color: rgba(255, 255, 255, 0.362);
+        font-size: 15px;
+        }
       }
 }

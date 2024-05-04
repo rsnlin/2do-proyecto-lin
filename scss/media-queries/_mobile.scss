@@ -116,6 +116,9 @@
         height: 270px;
         margin-right: 20px;
       }
+      p{
+        margin-bottom: 0;
+      }
       }
 
     /*Estilos de miembros*/
@@ -200,10 +203,19 @@ text-align: center;
 
     /*estilos footer*/
     footer{
+      margin-top: 65px;
         .redes{
       text-align: center;
       margin-top: 20px;
       margin-bottom: 10px;
+        }
+        .flecha {
+          width: 45px;
+          height: 45px;
+          position: fixed;
+          bottom: 25px;
+          right: 20px;
+          display: flex;
         }
     }
   }
