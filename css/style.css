@@ -476,22 +476,22 @@ footer .texto p {
   }
   .contenedor1 p {
     margin-top: 0;
-    width: 100%;
+    width: 80%;
   }
   .contenedor2 {
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .contenedor2 img {
     width: 350px;
     height: 200px;
     margin-right: 20px;
-    width: 100%;
   }
   .contenedor2 p {
     margin-bottom: 0;
-    width: 100%;
+    width: 80%;
   }
   /*Estilos de miembros*/
   .boxcontenido {
@@ -541,8 +541,8 @@ footer .texto p {
     transition: 1s;
   }
   .contenido4 .gallery img:hover {
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     transition: 1s;
   }
   /*Estilos del merch*/

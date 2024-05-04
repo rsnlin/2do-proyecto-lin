@@ -107,22 +107,22 @@
       }
       p{
         margin-top: 0;
-        width: 100%;
+        width: 80%;
       }
       }
       .contenedor2 {
       display: grid;
       justify-content: center;
       align-items: center;
+      width: 100%;
       img{
         width: 350px;
         height: 200px;
         margin-right: 20px;
-        width: 100%;
       }
       p{
         margin-bottom: 0;
-        width: 100%;
+        width: 80%;
       }
       }
 
@@ -174,8 +174,8 @@ text-align: center;
             box-shadow: 5px 5px 8px lightgray;
                 transition: 1s;
                 &:hover{
-                  width: 220px;
-                  height: 220px;
+                  width: 180px;
+                  height: 180px;
                   transition: 1s;      
           }
       }
