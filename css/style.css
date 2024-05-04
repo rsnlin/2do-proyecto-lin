@@ -415,6 +415,7 @@ footer .texto p {
     display: grid;
     align-items: center;
     min-height: 50vh;
+    width: 100%;
     background-image: url(../images/Portdada\ mobile.png);
     background-size: cover;
     background-position: center;
@@ -466,6 +467,7 @@ footer .texto p {
     display: grid;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .contenedor1 img {
     width: 350px;
@@ -474,6 +476,7 @@ footer .texto p {
   }
   .contenedor1 p {
     margin-top: 0;
+    width: 100%;
   }
   .contenedor2 {
     display: grid;
@@ -484,9 +487,11 @@ footer .texto p {
     width: 350px;
     height: 200px;
     margin-right: 20px;
+    width: 100%;
   }
   .contenedor2 p {
     margin-bottom: 0;
+    width: 100%;
   }
   /*Estilos de miembros*/
   .boxcontenido {
@@ -530,6 +535,7 @@ footer .texto p {
   .contenido4 .gallery img {
     width: 160px;
     height: 160px;
+    width: 100%;
     margin: 5px;
     box-shadow: 5px 5px 8px lightgray;
     transition: 1s;
@@ -560,6 +566,7 @@ footer .texto p {
   .contenido5 .gallery2 img {
     width: 160px;
     height: 160px;
+    width: 100%;
   }
   /*estilos footer*/
   footer {
