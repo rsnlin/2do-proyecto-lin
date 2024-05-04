@@ -457,6 +457,9 @@ footer .texto p {
     filter: invert(100%);
   }
   /*Estilos de biografía*/
+  .contenido2 {
+    width: 100%;
+  }
   .contenido2 h1 {
     font-size: 30px;
     text-align: center;
@@ -467,7 +470,6 @@ footer .texto p {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
   .contenedor1 img {
     width: 350px;
@@ -476,13 +478,11 @@ footer .texto p {
   }
   .contenedor1 p {
     margin-top: 0;
-    width: 80%;
   }
   .contenedor2 {
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 100%;
   }
   .contenedor2 img {
     width: 350px;
@@ -491,7 +491,6 @@ footer .texto p {
   }
   .contenedor2 p {
     margin-bottom: 0;
-    width: 80%;
   }
   /*Estilos de miembros*/
   .boxcontenido {
@@ -538,12 +537,6 @@ footer .texto p {
     width: 100%;
     margin: 5px;
     box-shadow: 5px 5px 8px lightgray;
-    transition: 1s;
-  }
-  .contenido4 .gallery img:hover {
-    width: 180px;
-    height: 180px;
-    transition: 1s;
   }
   /*Estilos del merch*/
   .contenido5 h1 {
