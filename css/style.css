@@ -557,10 +557,11 @@ footer .texto p {
     padding: 0;
   }
   .contenido5 .gallery2 {
-    width: 75%;
+    width: 90%;
+    margin-left: 17px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: px;
     margin-top: 25px;
     grid-auto-rows: minmax(100px, auto);
   }
@@ -568,8 +569,8 @@ footer .texto p {
     margin-top: 60px;
   }
   .contenido5 .gallery2 img {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     width: 100%;
   }
   /*estilos footer*/
