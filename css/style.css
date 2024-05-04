@@ -540,6 +540,9 @@ footer .texto p {
     margin: 5px;
     box-shadow: 5px 5px 8px lightgray;
   }
+  .contenido4 .gallery img:hover {
+    display: none;
+  }
   /*Estilos del merch*/
   .contenido5 {
     width: 100%;
@@ -564,6 +567,7 @@ footer .texto p {
   .contenido5 .gallery2 img {
     width: 160px;
     height: 160px;
+    width: 100%;
   }
   /*estilos footer*/
   footer {

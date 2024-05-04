@@ -169,6 +169,9 @@ text-align: center;
             height: 160px;
             margin: 5px;
             box-shadow: 5px 5px 8px lightgray;
+            &:hover{
+              display: none;    
+      }
       }
     }
   } 
@@ -195,6 +198,7 @@ text-align: center;
           img {
             width: 160px;
             height: 160px;
+            width: 100%;
           }
           }
     }
